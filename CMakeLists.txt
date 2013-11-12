@@ -320,6 +320,7 @@ endmacro(ei_add_target_property)
 
 install(FILES
   signature_of_eigen3_matrix_library
+  package.xml
   DESTINATION ${INCLUDE_INSTALL_DIR} COMPONENT Devel
   )
 

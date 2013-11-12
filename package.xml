@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>eigen</name>
+  <version>3.2.0</version>
+  <description>Eigen 3.2</description>
+  <maintainer email="mail@mrinal.net">Mrinal Kalakrishnan</maintainer>
+  <license>MPL2</license>
+  <author>Benoit Jacob</author>
+  <author>Gael Guennebaud</author>
+  <author>several contributors</author>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>  
