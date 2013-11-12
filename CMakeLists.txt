@@ -319,8 +319,12 @@ macro(ei_add_target_property target prop value)
 endmacro(ei_add_target_property)
 
 install(FILES
-  signature_of_eigen3_matrix_library
   package.xml
+  DESTINATION ${CMAKE_INSTALL_PREFIX} COMPONENT Devel
+  )
+
+install(FILES
+  signature_of_eigen3_matrix_library
   DESTINATION ${INCLUDE_INSTALL_DIR} COMPONENT Devel
   )
 
