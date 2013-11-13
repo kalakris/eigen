@@ -337,7 +337,7 @@ if(EIGEN_BUILD_PKGCONFIG)
         SET(pkg_config_install_dir ${pkg_config_libdir})
         message(STATUS "found ${pkg_config_libdir}/pkgconfig" )
     else(pkg_config_libdir)
-        SET(pkg_config_install_dir ${CMAKE_INSTALL_PREFIX}/share)
+        SET(pkg_config_install_dir ${CMAKE_INSTALL_PREFIX}/lib)
         message(STATUS "pkgconfig not found; installing in ${pkg_config_install_dir}" )
     endif(pkg_config_libdir)
 
